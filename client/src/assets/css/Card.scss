@@ -1,0 +1,38 @@
+.card {
+    width: 220px;
+    height: 295px;
+    color: rgb(13, 12, 12);
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .description {
+        font-weight: 300;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    .title {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+        .carousel-container {
+            margin: 20px;
+        }
+    
+        .carousel-item-padding-40-px {
+            padding: 0 20px;
+        }
+
+}
